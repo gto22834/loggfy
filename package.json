@@ -1,6 +1,6 @@
 {
   "name": "pack-console",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The render component for game editor",
   "main": "dist/PackConsole.js",
   "scripts": {
