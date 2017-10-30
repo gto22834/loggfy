@@ -1,0 +1,18 @@
+# 原文 https://eslint.org/docs/user-guide/configuring
+# 中文 http://eslint.cn/docs/user-guide/configuring
+# eslint-config-standard https://github.com/standard/eslint-config-standard
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "es6": true
+  },
+  "env": {
+    "browser": true,
+    "node": ture
+  },
+  "extends": "standard",
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["error", "always"]
+  }
+}

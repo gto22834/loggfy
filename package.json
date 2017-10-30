@@ -1,0 +1,48 @@
+{
+  "name": "pack-console",
+  "version": "1.0.0",
+  "description": "The render component for game editor",
+  "main": "dist/PackConsole.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --colors --config ./build/webpack.prod.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --progress --colors --config ./build/webpack.dev.config.js --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "npm run build && git add .",
+    "postversion": "git push && git push --tags && rm -rf build/temp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gto22834/PackConsole.git"
+  },
+  "keywords": [
+    "console"
+  ],
+  "author": "SimonKu (gto22834@gamil.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/gto22834/PackConsole/issues"
+  },
+  "homepage": "https://github.com/gto22834/PackConsole#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss-loader": "^2.0.7",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
