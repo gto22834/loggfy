@@ -1,5 +1,11 @@
 # PackConsole
 
+## Install
+
+- $ npm install pack-console
+
+## Introduction
+
 Pack all concole message for easy debug.
 
 | Log level | Mean | Note |icon|
@@ -22,6 +28,11 @@ Pack all concole message for easy debug.
 3. But, don't use it as it's too easy for a person to read your logs.
 
 ## Usage
+
+```js
+let debug = PackConsole;
+debug.error('ERROR'); // 'ERROR'
+```
 
 ## TODO:
 
