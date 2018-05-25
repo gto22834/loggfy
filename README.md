@@ -38,5 +38,7 @@ debug.error('ERROR'); // 'ERROR'
 
 - [ ] Style the console
 - [ ] suffix the console
+- [ ] elastic
+- [ ] sentry
 
 [The console affect]:https://stackoverflow.com/questions/11426185/will-console-log-reduce-javascript-execution-performance
