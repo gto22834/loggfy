@@ -45,7 +45,7 @@ const publicPath = path.join(process.cwd(), 'public')
 const FileSizeReporter = require('react-dev-utils/FileSizeReporter')
 const measureFileSizesBeforeBuild = FileSizeReporter.measureFileSizesBeforeBuild
 
-const config = require('../config/webpack.config.prod.js');
+const config = require('./config/webpack.config.prod.js');
 
 // Merge with the public folder
 function copyPublicFolder () {

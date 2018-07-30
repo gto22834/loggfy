@@ -1,7 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
-const webpackStyleConfig = require('./webpack.config.style.js')
+// const webpackStyleConfig = require('./webpack.config.style.js')
 
 const webpackConfig = merge({
   module: {
@@ -47,6 +47,6 @@ const webpackConfig = merge({
       DEVELOPMENT: JSON.stringify(process.env.NODE_ENV === 'development'),
     }),
   ],
-}, webpackStyleConfig)
+})
 
 module.exports = webpackConfig
