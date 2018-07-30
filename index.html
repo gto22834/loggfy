@@ -3,19 +3,18 @@
 
 <head>
   <meta charset=utf-8>
-  <title>PackConsole</title>
-  <link rel="stylesheet" href="reset.css">
+  <title>Logify</title>
+  <link rel="stylesheet" href="../reset.css">
 </head>
 
 <body><noscript style=color:red>請啟動 javascript</noscript>
-  <script type=text/javascript src=./dist/PackConsole.js></script>
   <script>
     window.onload = function() {
-      console.error(PackConsole);
-      PackConsole.log('LOG');
-      PackConsole.info('INFO');
-      PackConsole.warn('WARNNING');
-      PackConsole.error('ERROR');
+      logify.log('Log test')
+      logify.warn('Warn test')
+      logify.debug('Debug test')
+      logify.info('Debug test')
+      logify.error('Debug test')
     }
   </script>
 </body>

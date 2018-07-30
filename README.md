@@ -1,8 +1,8 @@
-# PackConsole
+# Logify
 
 ## Install
 
-- $ npm install pack-console
+- $ npm install Logify
 
 ## Introduction
 

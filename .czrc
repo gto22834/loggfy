@@ -1,0 +1,8 @@
+{
+  "path": "cz-template",
+  "config": {
+    "cz-template": {
+      "formula": "${title} ${emoji} ${scope}: ${subject}"
+    }
+  }
+}
