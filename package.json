@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/gto22834/logify#readme",
   "dependencies": {
-    "ua-parser-js": "^0.7.18"
+    "ua-parser-js": "^0.7.33"
   },
   "config": {
     "commitizen": {
